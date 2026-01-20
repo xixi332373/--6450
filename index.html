@@ -151,11 +151,15 @@
                         </div>
                     </div>
                     
-                    <!-- Combined WhatsApp Contact Button -->
+                    <!-- Combined WhatsApp Contact Button & New Contact Button -->
                     <div class="flex flex-col sm:flex-row gap-4 pt-4">
                         <a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20learn%20more%20about%20cryptocurrency%20advertising%20services" target="_blank" class="bg-primary text-white px-8 py-3.5 rounded-lg font-medium text-center hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto">
                             <i class="fa-brands fa-whatsapp"></i> Contact via WhatsApp
                         </a>
+                        <!-- New Contact Button -->
+                        <button id="contactButton" class="bg-secondary text-white px-8 py-3.5 rounded-lg font-medium text-center hover:bg-secondary/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto">
+                            <i class="fa-solid fa-phone"></i> 联系
+                        </button>
                     </div>
                     
                     <!-- Trust Indicators -->
@@ -520,6 +524,19 @@
                 }
             });
         });
+
+        // Contact Button Click Event
+        document.getElementById('contactButton').addEventListener('click', function() {
+            // 这里可以插入你需要的事件代码
+            // 示例：弹出提示框
+            alert('您点击了联系按钮！请在这里添加具体的联系逻辑');
+            
+            // 示例：追踪 Facebook 转化事件（可选）
+            // fbq('track', 'Contact');
+            
+            // 示例：跳转到 WhatsApp 联系页面
+            // window.location.href = 'https://wa.me/61412345678?text=Hi%20I%20want%20to%20contact%20you';
+        }, false);
     </script>
 </body>
 </html>
