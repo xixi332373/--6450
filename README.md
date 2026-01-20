@@ -1,1 +1,506 @@
-# --6450
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Australia | Blockchain Ads Australia</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        // Tailwind Configuration
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0066CC', // Australian Blue
+                        secondary: '#FF8C00', // Australian Gold
+                        dark: '#1A1A1A',
+                        light: '#F5F7FA',
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .section-padding {
+                @apply py-16 md:py-24;
+            }
+            .container-custom {
+                @apply container mx-auto px-4 md:px-8 lg:px-12;
+            }
+        }
+    </style>
+</head>
+
+<body class="font-inter bg-light text-dark antialiased">
+    <!-- Navigation Bar -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+        <div class="container-custom">
+            <nav class="flex items-center justify-between h-16 md:h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-2">
+                    <i class="fa-brands fa-blockchain text-primary text-2xl"></i>
+                    <span class="text-xl font-bold text-primary">BlockAds AU</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="hidden md:flex items-center gap-8">
+                    <li><a href="#about" class="font-medium hover:text-primary transition-colors">About</a></li>
+                    <li><a href="#benefits" class="font-medium hover:text-primary transition-colors">Benefits</a></li>
+                    <li><a href="#services" class="font-medium hover:text-primary transition-colors">Services</a></li>
+                    <!-- WhatsApp Contact Button -->
+                    <li><a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20learn%20more%20about%20cryptocurrency%20advertising%20services" target="_blank" class="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary/90 transition-colors flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp"></i> Contact via WhatsApp
+                    </a></li>
+                </ul>
+                
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="md:hidden text-dark text-xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileMenu" class="md:hidden hidden bg-white border-t">
+            <div class="container-custom py-4">
+                <ul class="flex flex-col gap-4">
+                    <li><a href="#about" class="font-medium hover:text-primary transition-colors block py-2">About</a></li>
+                    <li><a href="#benefits" class="font-medium hover:text-primary transition-colors block py-2">Benefits</a></li>
+                    <li><a href="#services" class="font-medium hover:text-primary transition-colors block py-2">Services</a></li>
+                    <!-- WhatsApp Contact Button -->
+                    <li><a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20learn%20more%20about%20cryptocurrency%20advertising%20services" target="_blank" class="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors inline-block mt-2 flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp"></i> Contact via WhatsApp
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Redesigned Hero Section (Cryptocurrency Focus) -->
+    <section class="pt-24 md:pt-32 pb-16 md:pb-24 bg-gradient-to-br from-primary/5 to-secondary/5">
+        <div class="container-custom">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2 space-y-8">
+                    <span class="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-medium text-sm">
+                        Australia's Leading Cryptocurrency Advertising Platform
+                    </span>
+                    <h1 class="text-[clamp(2.2rem,6vw,4rem)] font-bold leading-tight text-shadow">
+                        Cryptocurrency<br>
+                        <span class="text-primary">Revolutionising Australian</span>
+                    </h1>
+                    <p class="text-xl text-gray-700 leading-relaxed">
+                        Cryptocurrencies have emerged as a transformative financial technology in Australia, 
+                        offering secure, decentralised, and borderless transactions. Our platform leverages 
+                        blockchain-powered advertising to connect crypto businesses with Australian audiences, 
+                        driving meaningful engagement and measurable results in the rapidly growing Aussie crypto market.
+                    </p>
+                    
+                    <!-- Core Benefits Highlights -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-shield-halved text-primary text-xl"></i>
+                            <span class="font-medium">Secure Transactions</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-chart-pie text-primary text-xl"></i>
+                            <span class="font-medium">Market Insights</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-coins text-primary text-xl"></i>
+                            <span class="font-medium">Crypto Payments</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-arrow-trend-up text-primary text-xl"></i>
+                            <span class="font-medium">High ROI</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Combined WhatsApp Contact Button -->
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20learn%20more%20about%20cryptocurrency%20advertising%20services" target="_blank" class="bg-primary text-white px-8 py-3.5 rounded-lg font-medium text-center hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto">
+                            <i class="fa-brands fa-whatsapp"></i> Contact via WhatsApp
+                        </a>
+                    </div>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="flex items-center gap-6 pt-6">
+                        <div class="flex -space-x-3">
+                            <img src="https://picsum.photos/48/48?1" alt="Client" class="w-12 h-12 rounded-full border-2 border-white">
+                            <img src="https://picsum.photos/48/48?2" alt="Client" class="w-12 h-12 rounded-full border-2 border-white">
+                            <img src="https://picsum.photos/48/48?3" alt="Client" class="w-12 h-12 rounded-full border-2 border-white">
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-primary/10 flex items-center justify-center text-primary font-bold">
+                                200+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-center text-yellow-500">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span class="ml-2 text-gray-700 font-medium">4.8/5</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Trusted by Australian Businesses</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Australian Cryptocurrency Image -->
+                <div class="md:w-1/2 relative">
+                    <img src="https://picsum.photos/id/180/800/600" alt="Australian Cryptocurrency Advertising Technology" class="w-full h-auto rounded-xl shadow-xl">
+                    <!-- Decorative Elements -->
+                    <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-secondary/20 rounded-full -z-10"></div>
+                    <div class="absolute -top-4 -left-4 w-32 h-32 bg-primary/20 rounded-full -z-10"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-white">
+        <div class="container-custom">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <span class="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm mb-4">About Cryptocurrency</span>
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold mb-6">Cryptocurrency in Australia</h2>
+                <p class="text-lg text-gray-700">
+                    Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates 
+                    independently of a central bank. In Australia, crypto assets are regulated by AUSTRAC and the ACCC, 
+                    providing a safe and compliant environment for businesses to operate. BlockAds AU specialises in 
+                    connecting crypto brands with Australian consumers through transparent, blockchain-verified advertising.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-light rounded-xl p-8 hover:shadow-lg transition-shadow">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-shield-halved text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">AUSTRAC Regulated</h3>
+                    <p class="text-gray-700">
+                        Fully compliant with Australian cryptocurrency regulations and digital advertising standards, 
+                        ensuring legal and secure operations across the Australian market.
+                    </p>
+                </div>
+                
+                <div class="bg-light rounded-xl p-8 hover:shadow-lg transition-shadow">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-chart-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Data-Driven Insights</h3>
+                    <p class="text-gray-700">
+                        Leveraging blockchain's immutable ledger to track advertising performance with 100% accuracy, 
+                        providing actionable insights for Australian audiences and market segments.
+                    </p>
+                </div>
+                
+                <div class="bg-light rounded-xl p-8 hover:shadow-lg transition-shadow">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-handshake-angle text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Local Expertise</h3>
+                    <p class="text-gray-700">
+                        Our team of Australian digital marketing and cryptocurrency specialists understand local market 
+                        dynamics, consumer behaviour, and regulatory requirements specific to the Australian crypto landscape.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Benefits Section -->
+    <section id="benefits" class="section-padding bg-gradient-to-br from-primary/5 to-secondary/5">
+        <div class="container-custom">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <span class="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm mb-4">Core Benefits</span>
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold mb-6">Why Choose Cryptocurrency Advertising</h2>
+                <p class="text-lg text-gray-700">
+                    Our blockchain-powered advertising solutions address key pain points in traditional digital advertising 
+                    for the Australian cryptocurrency market, delivering transparency, security and measurable results.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-primary text-3xl mb-4">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Full Transparency</h3>
+                    <p class="text-gray-700">
+                        Track every ad impression and conversion on an immutable ledger, eliminating hidden fees and 
+                        non-transparent reporting common in traditional Australian digital advertising.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-primary text-3xl mb-4">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Fraud Prevention</h3>
+                    <p class="text-gray-700">
+                        Eliminate ad fraud and bot traffic that costs Australian businesses millions in wasted 
+                        advertising spend each year, particularly in the crypto sector.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-primary text-3xl mb-4">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Precision Targeting</h3>
+                    <p class="text-gray-700">
+                        Precisely target Australian cryptocurrency audiences based on verifiable data points, 
+                        improving conversion rates and advertising ROI in the competitive Aussie market.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-primary text-3xl mb-4">
+                        <i class="fa-solid fa-arrow-down-wide-short"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Reduced Costs</h3>
+                    <p class="text-gray-700">
+                        Remove intermediaries from the advertising supply chain, passing cost savings directly to 
+                        Australian advertisers and publishers in the cryptocurrency ecosystem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-white">
+        <div class="container-custom">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <span class="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm mb-4">Our Services</span>
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold mb-6">Cryptocurrency Advertising Solutions</h2>
+                <p class="text-lg text-gray-700">
+                    Comprehensive blockchain advertising services tailored to meet the unique needs of cryptocurrency 
+                    businesses across all Australian industry sectors.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="flex gap-6">
+                    <div class="shrink-0">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-bullhorn text-primary text-2xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Programmatic Crypto Ads</h3>
+                        <p class="text-gray-700 mb-4">
+                            Automate the buying and selling of advertising on the blockchain, ensuring transparent 
+                            transactions and real-time verification for Australian advertisers and publishers in the crypto space.
+                        </p>
+                        <!-- WhatsApp Link -->
+                        <a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20know%20more%20about%20your%20Programmatic%20Crypto%20Ads%20service" target="_blank" class="text-primary font-medium hover:underline flex items-center gap-1">
+                            Learn more <i class="fa-solid fa-arrow-right text-xs ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="flex gap-6">
+                    <div class="shrink-0">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-coins text-primary text-2xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Crypto-Powered Ad Campaigns</h3>
+                        <p class="text-gray-700 mb-4">
+                            Accept cryptocurrency payments for advertising services and reward Australian audience 
+                            engagement through crypto incentives and loyalty programs.
+                        </p>
+                        <!-- WhatsApp Link -->
+                        <a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20know%20more%20about%20your%20Crypto-Powered%20Ad%20Campaigns%20service" target="_blank" class="text-primary font-medium hover:underline flex items-center gap-1">
+                            Learn more <i class="fa-solid fa-arrow-right text-xs ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="flex gap-6">
+                    <div class="shrink-0">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-chart-pie text-primary text-2xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Transparent Reporting</h3>
+                        <p class="text-gray-700 mb-4">
+                            Real-time, immutable reporting dashboards providing 100% accurate campaign performance 
+                            data for Australian cryptocurrency businesses and marketing teams.
+                        </p>
+                        <!-- WhatsApp Link -->
+                        <a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20know%20more%20about%20your%20Transparent%20Reporting%20service" target="_blank" class="text-primary font-medium hover:underline flex items-center gap-1">
+                            Learn more <i class="fa-solid fa-arrow-right text-xs ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="flex gap-6">
+                    <div class="shrink-0">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-globe text-primary text-2xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Australian Market Expansion</h3>
+                        <p class="text-gray-700 mb-4">
+                            Leverage our local expertise to expand your cryptocurrency advertising reach across major 
+                            Australian markets including Sydney, Melbourne, Brisbane and Perth.
+                        </p>
+                        <!-- WhatsApp Link -->
+                        <a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20know%20more%20about%20your%20Australian%20Market%20Expansion%20service" target="_blank" class="text-primary font-medium hover:underline flex items-center gap-1">
+                            Learn more <i class="fa-solid fa-arrow-right text-xs ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-16 pb-8">
+        <div class="container-custom">
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <i class="fa-brands fa-blockchain text-primary text-2xl"></i>
+                        <span class="text-xl font-bold text-white">BlockAds AU</span>
+                    </div>
+                    <p class="text-gray-400 mb-6">
+                        Transforming Australia's advertising industry through cryptocurrency and blockchain technology, 
+                        delivering transparency, security and efficiency to the Australian digital marketing landscape.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <!-- WhatsApp Icon -->
+                        <a href="https://wa.me/61412345678" target="_blank" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Programmatic Ads</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Crypto Advertising</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Transparent Reporting</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Fraud Prevention</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Market Expansion</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Our Team</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                        © 2025 BlockAds AU. All rights reserved. ABN 12 345 678 901.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        Designed for the Australian market | Regulated by AUSTRAC
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const icon = menuBtn.querySelector('i');
+            if (mobileMenu.classList.contains('hidden')) {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            } else {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            }
+        });
+        
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-md');
+                header.classList.remove('shadow-sm');
+            } else {
+                header.classList.remove('shadow-md');
+                header.classList.add('shadow-sm');
+            }
+        });
+        
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                        const icon = menuBtn.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
