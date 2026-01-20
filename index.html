@@ -469,7 +469,16 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
+    <!-- 替换后的联系按钮事件代码 -->
+    <button id="contactButton">联系</button>
+    <script type="text/javascript">
+    document.getElementById('contactButton').addEventListener('click', function() {
+    insert_event_code_here;
+    ...
+    }, false);
+    </script>
+
+    <!-- 原有页面交互逻辑 -->
     <script>
         // Mobile Menu Toggle
         const menuBtn = document.getElementById('menuBtn');
@@ -524,12 +533,6 @@
                 }
             });
         });
-
-        // 替换为你提供的极简版联系按钮点击事件代码
-        document.getElementById('contactButton').addEventListener('click', function() {
-            insert_event_code_here;
-            ...
-        }, false);
     </script>
 </body>
 </html>
