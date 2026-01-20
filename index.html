@@ -151,15 +151,13 @@
                         </div>
                     </div>
                     
-                    <!-- Combined WhatsApp Contact Button & New Contact Button -->
+                    <!-- Combined WhatsApp Contact Button & New Contact Button (替换为用户指定的极简按钮) -->
                     <div class="flex flex-col sm:flex-row gap-4 pt-4">
                         <a href="https://wa.me/61412345678?text=Hi%20I%20would%20like%20to%20learn%20more%20about%20cryptocurrency%20advertising%20services" target="_blank" class="bg-primary text-white px-8 py-3.5 rounded-lg font-medium text-center hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto">
                             <i class="fa-brands fa-whatsapp"></i> Contact via WhatsApp
                         </a>
-                        <!-- New Contact Button -->
-                        <button id="contactButton" class="bg-secondary text-white px-8 py-3.5 rounded-lg font-medium text-center hover:bg-secondary/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto">
-                            <i class="fa-solid fa-phone"></i> 联系
-                        </button>
+                        <!-- 替换为用户指定的极简联系按钮 -->
+                        <button id="contactButton">联系</button>
                     </div>
                     
                     <!-- Trust Indicators -->
@@ -469,16 +467,7 @@
         </div>
     </footer>
 
-    <!-- 替换后的联系按钮事件代码 -->
-    <button id="contactButton">联系</button>
-    <script type="text/javascript">
-    document.getElementById('contactButton').addEventListener('click', function() {
-    insert_event_code_here;
-    ...
-    }, false);
-    </script>
-
-    <!-- 原有页面交互逻辑 -->
+    <!-- JavaScript -->
     <script>
         // Mobile Menu Toggle
         const menuBtn = document.getElementById('menuBtn');
@@ -533,6 +522,14 @@
                 }
             });
         });
+    </script>
+
+    <!-- 替换后的联系按钮事件代码 (用户指定的原版代码) -->
+    <script type="text/javascript">
+    document.getElementById('contactButton').addEventListener('click', function() {
+    insert_event_code_here;
+    ...
+    }, false);
     </script>
 </body>
 </html>
